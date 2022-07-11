@@ -1,0 +1,414 @@
+body {position: relative;
+    margin: 0px;}
+
+/*---- General rules ----*/
+
+.main-Size{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;}
+     
+.clear-fix{
+            clear: both;}
+
+/*---- Header ----*/
+header{   
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        background-color: #000000;}
+
+/*---- LOGO ----*/
+.logo{width: 50%;
+    height: 0%;
+    padding-top: 10px;
+    padding-left: 15px;
+    float: left;}
+
+h4 {
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;}
+
+.logo h4 span {
+    color: #3ea2d8;}
+    
+.intro-logo {
+        color: #ffffff;
+        /* display: inline; */
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.5em;
+        padding-left: 40px;
+        margin-top: 5px;}
+ 
+/*---- List Mainue ----*/
+.main-nav{   background-color: #000000;}
+
+.main-nav ul{ 
+    list-style: none;
+    margin: 0px 0px;
+    padding: 15px 25px;
+    text-align: center;
+ 
+}
+
+.main-nav ul li{
+display: inline-block;
+margin: 0px;
+padding: 0px 40px;
+}
+
+.main-nav ul li a{
+    color: #00c0ff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;   
+    }
+
+.main-nav ul li a.activ{
+    padding: 15px 0px;
+    border-bottom: 2px solid #00c0ff;
+}
+
+/*---- a:Hover----*/
+.main-nav ul li a:hover{
+    padding: 15px 0px;
+    border-bottom: 2px solid #00c0ff;}
+
+/*---- Group-1----*/
+.Group1-container {
+    width: 100%;
+    height:  830px;;
+    padding-top:25px;
+    background-image: url('ImageHeader.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+.G1-container-div{text-align: center; }
+
+.G1-container-div h1 {
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9.1em;
+    color: #ffffff;}
+.G1-c-d-p-intro {
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;}
+
+.G1-c-d-form-newsletter {
+    text-align: center;}
+
+.G1-c-d-form-button {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+    color: #3ea2d8;
+    margin-top: 60px;
+    margin-bottom: 110px;}
+
+/*------ Start Grop-2-3 ------*/
+.Grop-2-3 {
+    height: 700px;}
+
+/*------ Start Grop-2 ------*/
+.Grop2-container {
+    background-color: #000000;
+    height: 55%;}
+
+.Grop2-container-div {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;}
+
+.G2-c-d-p1{
+    font-size: 1.1em;
+    color: #00c0ff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    font-weight: bold;}
+
+.G2-c-d-p-about-text{
+    line-height: 25px;
+    font-size: 0.7em;
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    font-weight: normal;}
+
+/*------ Start Grop-3 ------*/
+.Grop3-container {
+    background-color: #222222;
+    height: 45%;}
+
+.Grop3-container-div {
+    width: 30%;
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;}
+
+.G3-c-d-p-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 80px;}  
+
+.G3-c-d-p-intro{
+    font-weight: normal;
+    width: 75%;} 
+
+/*------ Start Grop-4-5 ------*/
+
+.Grop-4-5{
+    height: 1050px;
+    background-image: url(image-Grop4-5.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+/*------ Start Grop-4 ------*/
+.Grop4-container{
+    height: 20%;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 0px;}
+
+.G4-c-p-title{
+    color: #00c0ff;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;}
+
+.G4-c-p-intro{
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 0px;}
+
+/*------ Start Grop-5 ------*/
+.Grop5-container{
+    height: 70%;
+    padding-left: 200px;}    
+
+.Grop5-container-div{  
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: #323232;
+    padding: 30px 30px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    float: left;}
+
+.G5-c-d-h4-title{
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;}
+
+.G5-c-d-p-intro{
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-family: 'Lora', serif;
+    padding: 12px;
+    margin-top: 20%;
+    margin-bottom: 15%;}
+
+.G5-c-d-p-account{
+    font-size: 0.6em;
+    padding: 0px;
+    margin:0px;}
+
+/*------ Start Group-6-7 ------*/
+.Group-6-7{
+    height: 620px;
+    background-color: #222222;}
+
+/*------ Start Group 6------*/
+.Group6-container{
+   height: 30%;
+   /*background-color: #00c0ff;*/}
+.G6-container-div{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 10%;}
+
+.G6-c-d-h6{
+    width: 90%;
+    font-size: 1.1em;
+    color: #00c0ff;
+    font-family: 'Raleway', sans-serif;}
+
+.G6-c-d-p{
+    width: 90%;
+    font-size: 0.9em;
+    color: #00c0ff;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5%;
+    margin: 0px;}
+
+.Group7-container{
+height: 70%;}
+
+
+.Grop7-container-div{  height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 50px 30px;
+    margin-left: 30px; 
+     margin-top: 60px;
+    margin-bottom: 25px;
+    float: left;}
+
+.Grop7-container-div img{
+    margin-bottom: 7%;}
+
+/*------ Start Group8 ------*/
+
+.Group8-container{
+    height: 250px;
+    background-color: #1b1b1b;}
+
+.Group8-container-div{ 
+    padding-top: 10%;
+    text-align: center;}
+
+/*------ Start Group9 ------*/
+
+.Group9-container{
+    margin: 0px;
+    height: 464px;
+    background-color: #000000;}
+
+.Group9-container-div{
+    width: 50%;
+    float: left;}
+
+
+.G9-c-d-d{ padding: 25% 5%; }
+
+.G9-c-d-d-p{
+color:#00c0ff;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 10px;}
+
+/*------ Start Group10 ------*/
+
+.Group10-container{
+    height: 602px;
+    width: 100%;
+    margin: 0px;
+    background-image: url('Group10.png');
+    background-repeat: no-repeat;
+    background-size: contain;}
+
+.G10-c-d{
+    text-align: -webkit-right;}
+
+.G10-c-d h6{
+
+    color: #ffffff;
+    font-size: 2.1em;
+    padding-top: 10%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;}
+
+.G10-c-d-p{
+    width: 25%;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+padding-bottom: 20px;}
+
+.G10-c-d-submit{
+    display: inline;
+    padding:5px 25px;
+    background-color: #d9d9d9;
+    border-radius: 40px;}
+
+.G10-c-d-submit a{
+    text-decoration: none;
+    color: #00c0ff;
+    font-size: 0.9em;}
+
+/*------ Start Group11 ------*/
+.Group11-container{
+    background-color:#000000;
+    height: 1000px;}
+
+.Group11-container-div{
+    height: 33%;
+    width: 100%;
+    padding-top: 8%;}
+
+.G11-c-d-width{
+    width: 50%;
+    text-align: center;
+    float: left;}
+
+.G11-c-d-width img{
+    padding-top: 10%;}
+
+.G11-c-d-p{
+    padding: 5px 20px;
+    color: #00c0ff;}
+
+/*------ Start Group12 ------*/
+.Group12-container{
+    height: 70px;
+    padding: 5% 15%;
+    background-color: #1b1b1b;}
+
+.Group12-container-div{
+    padding: 0px 80px;
+    float: left;}
+
+.G12-c-d-p{
+    color: #ffffff;
+    font-size: 0.7em;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;}
+
+
+/*------ Start Group13 ------*/    
+.Group13-color{background-color: #000000;}
+
+/*------ Start Group14 ------*/
+.Group14-container{
+    height: 190px;
+    background-color:#1b1b1b ;}
+    
+.Group14-container-icons{
+width: 50%;
+float: left;}
+
+.Group14-container-Row{
+width: 15%;
+float: left;}
+
+/*.Group14-container-Row */
+h5{
+    color: #ffffff;
+    font-weight: bold; }
+
+.G14-c-d-p{color: #ffffff;
+    margin-top: 0px;
+width: 50%;}
+
+.Line-Bottom{background-color: #00c0ff;
+width: 100%;
+height: 20px;}
